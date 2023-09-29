@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: #FFF;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin: 156px 661px 0px 728px;
+}
+
+.paragrafo {
+    display: flex;
+    margin-top: 126px;
+    justify-content: center;
+}
+
+p {
+    width: 299px;
+    font-size: 32px;
+}
+
+.formularios {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 29px 79px;
+}
+
+.numeros {
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.25);
+    width: 342px;
+    padding: 11px 150px 5px 16px;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 500;
+    opacity: 0.7;
+    color: #FFF;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 187px;
+}
+
+button {
+    background-color: #AEC346;
+    width: 342px;
+    border-radius: 10px;
+    box-shadow: 0px 18px 40px 0px rgba(174, 195, 70, 0.35);
+    padding: 0px 76px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    display: flex;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2.5px;
+    height: 72px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.8;
+}
+
