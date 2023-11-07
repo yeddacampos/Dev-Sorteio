@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>DevSorteio</title>
 </head>
 
@@ -16,11 +17,11 @@
         <p>Sortear um número</p>
     </div>
     <div class="formularios">
-        <input type="text" class="numeros" placeholder="entre">
-        <input type="text" class="numeros" placeholder="e">
+        <input type="number" class="numeros" placeholder="entre" id="min">
+        <input type="number" class="numeros" placeholder="e" id="max">
     </div>
     <div class="botao">
-        <button>Sortear</button>
+        <button onclick="sortear()">Sortear</button>
     </div>
 </body>
 
